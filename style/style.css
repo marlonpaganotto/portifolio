@@ -170,7 +170,7 @@ body  {
   }
   .principal-home{
     display: flex;
-    flex-direction: column-reverse;
+    flex-direction: row;
   }
 
 
