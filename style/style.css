@@ -21,6 +21,7 @@ body  {
     background-color: var(--cor-primaria);
     color: var(--cor-secundaria);
     box-sizing: border-box;
+    padding: 2rem;
 }
 .about-body{
     display: flex;
@@ -107,7 +108,8 @@ body  {
     border: 8px solid #8704F4;
 }
 .apresentacao_imagem{
-    width: 50%;
+    width: 25%;
+    margin-left: 3rem;
 
 }
 
@@ -169,8 +171,12 @@ body  {
     color: var(--cor-branca);
   }
   .principal-home{
+    padding: 8% 15%;
+    align-items: center;
     display: flex;
     flex-direction: row;
+   
+   
   }
 
 
