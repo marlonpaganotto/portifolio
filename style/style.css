@@ -168,6 +168,10 @@ body  {
     font-size: 20px;
     color: var(--cor-branca);
   }
+  .principal-home{
+    display: flex;
+    flex-direction: column-reverse;
+  }
 
 
 
