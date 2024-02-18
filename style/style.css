@@ -22,6 +22,10 @@ body  {
     color: var(--cor-secundaria);
     box-sizing: border-box;
 }
+.about-body{
+    display: flex;
+    flex-direction: column;
+}
 
 .mudei-corzinha {color:var(--cor-terciaria)
 }
@@ -30,8 +34,8 @@ body  {
     padding: 8% 15%;
     align-items: center;
     display: flex;
-    justify-content: space-between;
-    gap: 82px;
+    flex-direction: column;
+   
 }
 .cabecalho{
     padding: 2% 0% 0% 15%;
@@ -58,6 +62,7 @@ body  {
 .apresentacao__conteudo__titulo{
     font-family: 'Krona One', sans-serif;
     font-size: 2.25rem;
+    color: var(--cor-branca);
 }
 .apresentacao__conteudo__texto{
     font-family: 'Krona One', sans-serif;
@@ -98,7 +103,7 @@ body  {
     border-radius: 8px;
     padding: 21.5px 0px;
     text-decoration: none;
-    font-weight: 600px;
+    font-weight: 600;
     border: 8px solid #8704F4;
 }
 .apresentacao_imagem{
@@ -129,10 +134,40 @@ body  {
     font-size: 16px;
     font-weight: 500;
 }
-.linguas__titulo{
-    font-size: 16px;
-    font-weight: 500;
+.linguas{
+    padding: 2%;
 }
+.linguas__titulo{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--cor-branca);
+  }
+  .cursos__titulo{
+    margin-top: 20px;
+    display: flex;
+    text-align: center;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--cor-branca);
+  }
+
+.principal{
+    flex-direction: column-reverse;
+    padding: 5%;
+    
+  }
+  .objetivo{
+    font-size: 20px;
+    
+  }.objetivo__titulo{
+    margin-bottom: 2%;
+    font-weight: 600;
+    font-size: 20px;
+    color: var(--cor-branca);
+  }
 
 
 
@@ -152,7 +187,7 @@ body  {
     
   }
   .apresentacao__conteudo{
-    width: auto;
+    width: 70%;
   }
   
 
